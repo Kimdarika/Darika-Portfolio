@@ -13,8 +13,10 @@ body {
 }
 .glow-shadow {
     text-shadow: 0 0 5px #4fd1c5, 0 0 10px #00bcd4;
+    color: white;
 }
 .box-glow {
+    color: white;
     box-shadow: 0 0 15px rgba(0, 188, 212, 0.3), 0 0 5px rgba(0, 188, 212, 0.5);
 }
 .image-filter {
