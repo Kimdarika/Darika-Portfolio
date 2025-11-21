@@ -1,0 +1,112 @@
+/* --- Footer Styling: Designed for Interest and Engagement --- */
+
+footer {
+    /* Dark background with a subtle vertical gradient for depth */
+    background: linear-gradient(180deg, #1a1a1a 0%, #0d0d0d 100%); 
+    color: #e0e0e0; /* Off-white text for readability */
+    padding: 60px 5%; /* Generous padding */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    border-top: 3px solid #00bcd4; /* Main accent line */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+    flex-wrap: wrap; 
+}
+
+.footer-column {
+    padding: 10px;
+    min-width: 180px; 
+}
+
+/* Headings in the footer - Using accent color */
+.footer-column h3, .footer-column h4 {
+    color: #00bcd4; /* Neon Blue Accent */
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-column.branding p {
+    font-style: italic;
+    color: #999;
+}
+
+/* Quick Links Styling */
+.footer-column.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column.links li {
+    margin-bottom: 12px;
+}
+
+.footer-column a {
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Hover Effect for Links: Glow */
+.footer-column a:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #00bcd4; /* Subtle neon glow effect */
+}
+
+/* Social Icons Styling: Circular Buttons with Neon */
+.social-icons a {
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background-color: #333;
+    border-radius: 50%; /* Circular shape */
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #00bcd4; /* Icon color is the accent */
+    border: 1px solid #00bcd4;
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.social-icons a:hover {
+    background-color: #00bcd4; /* Fill the button on hover */
+    color: #0d0d0d; /* Dark text on bright background */
+    border-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 188, 212, 0.8); /* Enhance the neon glow */
+}
+
+/* Bottom Copyright Bar */
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333; 
+    padding-top: 25px;
+    font-size: 0.8em;
+    color: #777;
+    letter-spacing: 0.5px;
+}
+
+/* --- Responsive Adjustments for Mobile --- */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column; /* Stack columns vertically */
+        text-align: center;
+    }
+
+    .footer-column {
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #041724;
+    color: #e5e7eb;
+}
+.bg-dark-teal {
+    background-color: #041724; 
+    background-image: linear-gradient(135deg, #041724 0%, #000c14 100%);
+}
+.text-teal-accent {
+    color: #4fd1c5;
+}
+.glow-shadow {
+    text-shadow: 0 0 5px #4fd1c5, 0 0 10px #00bcd4;
+}
+.box-glow {
+    box-shadow: 0 0 15px rgba(0, 188, 212, 0.3), 0 0 5px rgba(0, 188, 212, 0.5);
+}
+.image-filter {
+    filter: grayscale(20%) saturate(150%) hue-rotate(180deg) brightness(80%);
+    object-fit: cover;
+}
+.tab-active {
+    color: #00bcd4;
+    border-bottom: 3px solid #00bcd4;
+    text-shadow: 0 0 5px #00bcd4;
+}
+.image-container {
+    position: relative;
+    width: 300px;
+    height: 400px; 
+}
+.absolute {
+    position: absolute;
+}
+.inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.w-full {
+    width: 100%;
+}
+.h-full {
+    height: 100%;
+}
+.image-filter {
+    filter: none;
+}
+.rounded-xl {
+    border-radius: 0.75rem;
+}
